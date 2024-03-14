@@ -50,13 +50,13 @@ with ui.sidebar(open="open"):
     )
 
     
-# # Adds a hyperlink to GitHub Repo
+# Adds a hyperlink to GitHub Repo
     ui.a(
         "Anjana's GitHub",
          href="https://github.com/anjana-codes/cintel-02-data",
          target="_blank",
          )
-
+# create a layout to include 2 cards with a data table and data grid
 with ui.accordion(id="acc", open="closed"):
     with ui.accordion_panel("Data Table"):
         @render.data_frame
