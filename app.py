@@ -1,4 +1,4 @@
-import plotly.express as px
+
 import plotly.express as px
 from shiny.express import input, ui
 from shinywidgets import render_plotly
